@@ -12,7 +12,7 @@ This project, developed as the final project (made in teams of 2) for Systems pr
 
 The program creates a house layout with interconnected rooms and simulates the movement and actions of the ghost and hunters within these rooms. Each hunter has specific actions they can take, including collecting evidence, reviewing shared evidence, and moving between connected rooms. The ghost moves, leaves evidence, and monitors its boredom level. Logging for every action and event is facilitated via logger.c, providing comprehensive tracking of the simulation's progression.
 
-##Implemented Concepts:
+## Implemented Concepts:
 
 The code implements dynamically and statically allocated memory management, utilizing linked lists for room connections, semaphore-based synchronization to manage shared data between threads, and pthread functions for multi-threaded behavior of the ghost and individual hunters. Makefiles are used to compile the code, and thorough documentation is provided for each function, adhering to good design principles. The program's modularity is emphasized with 15-35 reusable functions, encapsulating specific functionalities for extended program use.
 
